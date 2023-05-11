@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative "app/tournament"
+
+input_file = ARGV.first
+Tournament.run(input_file)
