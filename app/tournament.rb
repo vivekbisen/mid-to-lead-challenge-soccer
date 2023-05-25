@@ -27,11 +27,11 @@ class Tournament
       process_result(line)
     end
 
-    process_result(nil)
+    process_result
   end
 
-  def process_result(result)
-    return end_of_day if result == "\n"
+  def process_result(result = nil)
+    return end_of_day if result.nil? || result == "\n"
     return unless valid?(result)
 
     home_team_raw, away_team_raw = result.split(",")
