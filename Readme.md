@@ -3,7 +3,7 @@
 ## Overview
 This command-line application is intended to read soccer score data line-by-line. When the application decides that the day is finalized as in all games have been played and scores recorded, it prints up to top 3 teams with their names and points by match day.
 
-This reads data from a file or stdin and outputs to the console. To run this application with `sample-input.txt` as the data provided, pull the repository and run 
+This reads data from a file or stdin and sends output to the console. To run this application with `sample-input.txt` as the data provided, pull the repository and run 
 ```sh
 ./run # stdin prompt will wait and receive score data
 ```
